@@ -7,7 +7,6 @@ import javax.swing.ImageIcon;
 public abstract class Player {
 	
 	private int x, y;
-	private int dx, dy;
 	protected Image imagem;
 	protected int altura;
 	protected int largura;

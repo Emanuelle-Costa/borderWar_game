@@ -23,11 +23,11 @@ public class TelaInicial extends JPanel{
         
         JPanel panel = new JPanel();
         panel.setBackground(Color.WHITE);
-        panel.setBounds(750, 650, 300, 140);
+        panel.setBounds(500, 650, 300, 140);
 
-        ImageIcon backgroundImageIcon = new ImageIcon("img/inicial.png");
+        ImageIcon backgroundImageIcon = new ImageIcon("img/gamewar.png");
         Image backgroundImage = backgroundImageIcon.getImage();
-        int larguraContainer = 1800;
+        int larguraContainer = 1300;
         int alturaContainer = 950;
 
        
@@ -104,5 +104,3 @@ public class TelaInicial extends JPanel{
         return level3.isSelected();
     }
 }
-
-

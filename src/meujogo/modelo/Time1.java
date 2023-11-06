@@ -11,7 +11,7 @@ public class Time1 extends Player {
 	
 	@Override
 	public void load() {
-		ImageIcon player = new ImageIcon("img/azul.png");
+		ImageIcon player = new ImageIcon("img/blue.png");
 		imagem = player.getImage();
 		altura = imagem.getHeight(null);
 		largura = imagem.getWidth(null);
